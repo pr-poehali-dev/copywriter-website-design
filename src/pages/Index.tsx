@@ -1,10 +1,12 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import Icon from "@/components/ui/icon";
+import GoldenPath from "@/components/GoldenPath";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background text-foreground overflow-hidden">
+      <GoldenPath />
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-20 left-10 w-96 h-96 bg-primary/20 rounded-full blur-[120px] animate-glow-pulse"></div>
         <div className="absolute bottom-20 right-10 w-96 h-96 bg-secondary/20 rounded-full blur-[120px] animate-glow-pulse" style={{ animationDelay: '1s' }}></div>
@@ -23,7 +25,7 @@ const Index = () => {
               
               <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
                 Пишу тексты, которые{" "}
-                <span className="text-primary neon-text">приносят деньги</span>
+                <span className="gold-accent">приносят деньги</span>
               </h1>
               
               <p className="text-xl text-muted-foreground leading-relaxed">
@@ -33,7 +35,7 @@ const Index = () => {
               <p className="text-lg text-muted-foreground">
                 Копирайтер-практик для онлайн-продуктов, воронок и e-mail маркетинга.
                 <br />
-                <span className="text-primary font-semibold">8 лет опыта.</span> Клиенты — от экспертов и школ до известных имён.
+                <span className="gold-accent font-semibold">8 лет опыта.</span> Клиенты — от экспертов и школ до известных имён.
               </p>
 
               <div className="flex flex-wrap gap-4 pt-4">
@@ -103,7 +105,7 @@ const Index = () => {
         <section className="container mx-auto px-4 py-20">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              Что я <span className="text-primary neon-text">делаю</span>
+              Что я <span className="gold-accent">делаю</span>
             </h2>
           </div>
 
@@ -152,7 +154,7 @@ const Index = () => {
         <section className="container mx-auto px-4 py-20">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              <span className="text-primary neon-text">Кейсы</span>
+              <span className="gold-accent">Кейсы</span>
             </h2>
           </div>
 
@@ -213,7 +215,7 @@ const Index = () => {
         <section className="container mx-auto px-4 py-20">
           <div className="text-center mb-8">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              <span className="text-primary neon-text">Отзывы</span>
+              <span className="gold-accent">Отзывы</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Когда клиенты довольны — они пишут. Вот несколько сообщений от тех, с кем работала.
