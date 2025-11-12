@@ -27,7 +27,7 @@ const Index = () => {
               </h1>
               
               <p className="text-xl text-muted-foreground leading-relaxed">
-                Без эзотерики, без воды и без "миллион за 3 дня"
+                Без эзотерики, без воды и без «миллион за 3 дня»
               </p>
 
               <p className="text-lg text-muted-foreground">
@@ -73,7 +73,7 @@ const Index = () => {
               </p>
 
               <p className="text-lg leading-relaxed text-muted-foreground">
-                У меня нет диплома "копирайтера-гурмана". Но есть понимание, что работает, а что — просто красиво звучит.
+                У меня нет диплома «копирайтера-гурмана». Но есть понимание, что работает, а что — просто красиво звучит.
               </p>
             </div>
 
@@ -84,7 +84,7 @@ const Index = () => {
                   <h3 className="text-xl font-semibold mb-3">Среди клиентов:</h3>
                   <p className="text-lg">
                     Ирина Хакамада, Родион Якименко, Дмитрий Шумейко, Влада Олеговна,
-                    Динара Касько, Александра Мальцева, "Вита Медикус"
+                    Динара Касько, Александра Мальцева, «Вита Медикус»
                   </p>
                 </div>
               </div>
@@ -145,6 +145,112 @@ const Index = () => {
                 Баннеры, страницы продаж, сценарии, чек-листы.
                 Минимум текста — максимум смысла.
               </p>
+            </Card>
+          </div>
+        </section>
+
+        <section className="container mx-auto px-4 py-20">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <span className="text-primary neon-text">Кейсы</span>
+            </h2>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto mb-32">
+            <Card className="p-6 bg-card/50 backdrop-blur-sm border-primary/20 hover:border-primary/50 transition-all hover:scale-105 hover:neon-glow group">
+              <div className="mb-6 relative">
+                <div className="aspect-video bg-gradient-to-br from-primary/20 to-secondary/20 rounded-xl flex items-center justify-center border-2 border-primary/30 overflow-hidden">
+                  <div className="text-center p-4">
+                    <Icon name="Image" className="text-primary/50 mx-auto mb-2" size={40} />
+                    <p className="text-sm text-muted-foreground">здесь фото кейса или логотип клиента</p>
+                  </div>
+                </div>
+              </div>
+              <h3 className="text-xl font-bold mb-3">Telegram-бот «Планеты изобилия»</h3>
+              <div className="space-y-3 text-sm">
+                <p><span className="text-primary font-semibold">Что делала:</span> тексты и сценарии для вовлечения</p>
+                <p><span className="text-secondary font-semibold">Как это было:</span> превратили категории в «планеты» — Любви, Денег, Изобилия. Люди реально не выходили из бота — им было интересно.</p>
+                <p className="italic text-muted-foreground">(Космический storytelling с ненавязчивыми продажами.)</p>
+              </div>
+            </Card>
+
+            <Card className="p-6 bg-card/50 backdrop-blur-sm border-secondary/20 hover:border-secondary/50 transition-all hover:scale-105 hover:neon-glow-purple group">
+              <div className="mb-6 relative">
+                <div className="aspect-video bg-gradient-to-br from-secondary/20 to-primary/20 rounded-xl flex items-center justify-center border-2 border-secondary/30 overflow-hidden">
+                  <div className="text-center p-4">
+                    <Icon name="Image" className="text-secondary/50 mx-auto mb-2" size={40} />
+                    <p className="text-sm text-muted-foreground">здесь фото кейса или логотип клиента</p>
+                  </div>
+                </div>
+              </div>
+              <h3 className="text-xl font-bold mb-3">Благотворительный фонд JomDesign</h3>
+              <div className="space-y-3 text-sm">
+                <p><span className="text-primary font-semibold">Что делала:</span> коммерческое предложение и презентация для партнёров</p>
+                <p><span className="text-secondary font-semibold">Как это было:</span> собрала информацию, оформила, показала выгоды для бизнеса.</p>
+                <p className="italic text-muted-foreground">(Результат — фонд расширил сотрудничество с компаниями.)</p>
+              </div>
+            </Card>
+
+            <Card className="p-6 bg-card/50 backdrop-blur-sm border-primary/20 hover:border-primary/50 transition-all hover:scale-105 hover:neon-glow group">
+              <div className="mb-6 relative">
+                <div className="aspect-video bg-gradient-to-br from-primary/20 to-accent/20 rounded-xl flex items-center justify-center border-2 border-primary/30 overflow-hidden">
+                  <div className="text-center p-4">
+                    <Icon name="Image" className="text-primary/50 mx-auto mb-2" size={40} />
+                    <p className="text-sm text-muted-foreground">здесь фото кейса</p>
+                  </div>
+                </div>
+              </div>
+              <h3 className="text-xl font-bold mb-3">«Вита Медикус», центр косметологии и стоматологии</h3>
+              <div className="space-y-3 text-sm">
+                <p><span className="text-primary font-semibold">Что делала:</span> тексты для сайта и рекламных материалов</p>
+                <p><span className="text-secondary font-semibold">Как это было:</span> скомбинировала профессиональный язык и лёгкий, понятный стиль.</p>
+                <p className="italic text-muted-foreground">(Клиенты перестали бояться слова «стоматология».)</p>
+              </div>
+            </Card>
+          </div>
+        </section>
+
+        <section className="container mx-auto px-4 py-20">
+          <div className="text-center mb-8">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              <span className="text-primary neon-text">Отзывы</span>
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+              Когда клиенты довольны — они пишут. Вот несколько сообщений от тех, с кем работала.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto mb-32">
+            <Card className="p-0 bg-card/50 backdrop-blur-sm border-primary/20 overflow-hidden hover:scale-105 transition-transform hover:neon-glow">
+              <img
+                src="https://cdn.poehali.dev/files/6b13c43b-474d-457b-a40a-da1a003e19d2.jpg"
+                alt="Отзыв клиента"
+                className="w-full h-auto"
+              />
+            </Card>
+
+            <Card className="p-0 bg-card/50 backdrop-blur-sm border-secondary/20 overflow-hidden hover:scale-105 transition-transform hover:neon-glow-purple">
+              <img
+                src="https://cdn.poehali.dev/files/2264a07b-f45b-40c4-b723-9ff77b5c271a.jpg"
+                alt="Отзыв клиента"
+                className="w-full h-auto"
+              />
+            </Card>
+
+            <Card className="p-0 bg-card/50 backdrop-blur-sm border-primary/20 overflow-hidden hover:scale-105 transition-transform hover:neon-glow">
+              <img
+                src="https://cdn.poehali.dev/files/e097fc62-98df-4694-bbd8-f418f3ddf31c.jpg"
+                alt="Отзыв клиента"
+                className="w-full h-auto"
+              />
+            </Card>
+
+            <Card className="p-0 bg-card/50 backdrop-blur-sm border-secondary/20 overflow-hidden hover:scale-105 transition-transform hover:neon-glow-purple">
+              <img
+                src="https://cdn.poehali.dev/files/21a2fc9e-84c8-425f-af6e-e8efb1bb591b.jpg"
+                alt="Отзыв клиента"
+                className="w-full h-auto"
+              />
             </Card>
           </div>
         </section>
